@@ -1,0 +1,50 @@
+.widgetLg{
+    /* background-color: red; */
+    flex:3;
+    padding:20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75) ;
+}
+.widgetTitle{
+    font-size:22px ;
+    font-weight: 600;
+}
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTh{
+    text-align: left;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+}
+.widgetLgImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:10px ;
+}
+.widgetLgDate , .widgetLgAmount{
+    font-weight: 400;
+}
+.widgetLgButton{
+    padding: 5PX 7PX;
+    border: none;
+    border-radius: 10px;
+
+}
+.widgetLgButton.Approched{
+   
+    color: #3eb077;
+    background-color: #e5faf2;
+}
+.widgetLgButton.Decline{
+    color: #e11187;
+    background-color: #fff0f1;
+}
+.widgetLgButton.Pending{
+    color: #fe0101;
+    background-color: #ebf1fe;
+}
